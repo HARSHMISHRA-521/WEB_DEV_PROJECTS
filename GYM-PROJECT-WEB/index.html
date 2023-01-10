@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISHRA FITNESS</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap" rel="stylesheet">
+<style>
+    /* CSS RESET */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('image/abs-1850926__340.jpg');
+        font-family: 'Barlow', sans-serif;
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 175px;
+        filter: invert(100%);
+
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 26px;
+        font-weight: bolder;
+        line-height: 19px;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 48px;
+        /* border: 2px solid yellow; */
+        display: inline-block;
+
+
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 29px auto;
+        /* border: 2px solid lightblue; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+        /* font-weight: bold; */
+    }
+
+    .navbar li a {
+        color: azure;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 10px;
+        color: aliceblue;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid rgb(249, 246, 246);
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Barlow', sans-serif;
+        /* font-weight: bold; */
+    }
+
+    .btn:hover {
+        background-color: rgba(74, 73, 73, 0.775);
+
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 180px 880px;
+        padding: 75px;
+        width: 40%;
+        border-radius: 28px;
+
+
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+
+    }
+
+    .container h1 {
+        text-align: center;
+
+    }
+
+    .form-group input {
+        font-family: 'Barlow', sans-serif;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="image/gym-logo-fitness-center-design-600w-748794076.webp" alt="">
+            <div>Mishra Fitness</div>
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Banglore Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type=" text" name="" placeholder="Enter Your Name">
+
+            </div>
+            <div class="form-group">
+                <input type=" text" name="" placeholder="Enter Your Age">
+
+            </div>
+            <div class="form-group">
+                <input type=" text" name="" placeholder="Enter Your Gender">
+
+            </div>
+            <div class="form-group">
+                <input type=" text" name="" placeholder="Enter Your Locality">
+
+            </div>
+
+            <div class="form-group">
+                <input type=" text" name="" placeholder="Enter Your Email Id">
+
+            </div>
+            <div class="form-group">
+                <input type=" text" name="" placeholder="Enter Your Phone Number">
+
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
