@@ -1,0 +1,57 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style 
+    style
+      include ../static/style.css
+
+block content
+    section#introSection 
+        div Welcome To Mishra's Academy Of Dance
+        div.small Just Get MAD About Dance
+
+    section#missionSection 
+        h2 Our Mission
+
+
+        div.card
+            h3 Dance Perfection
+             div.card-box 
+                div.card-img
+                    img(src="/static/img/step11.png")
+
+                div.card-content
+                     p Here you live the dance and enjoy it.
+
+        div.card
+            h3 Dance the way you like
+             div.card-box 
+                div.card-img
+                    img(src="/static/img/step2.png")
+
+                div.card-content
+                    p This is the best dance academy of the universe.
+
+
+        div.card
+            h3 Expert Teaching
+             div.card-box 
+                div.card-img
+                    img(src="/static/img/step3.png")
+
+                div.card-content
+                    p Get the best teaching under Harsh Mishra.
+
+
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/img/sponsor111.jpeg",alt ="Sponsor Image",class="spImage")
+
+            img(src="/static/img/sponsor2.jpg",alt ="Sponsor Image",class="spImage")
+
+            img(src="/static/img/sponsor3.jpg",alt ="Sponsor Image",class="spImage")
+
+            img(src="/static/img/sponsor44.jpg",alt ="Sponsor Image",class="spImage")
