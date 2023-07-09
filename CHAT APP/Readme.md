@@ -16,12 +16,14 @@ Hi5 is a realtime chatting application built using Node.js and Socket.io. It all
 - User Join/Leave Notifications: Messages are generated to notify other users when someone joins or leaves the chat.
 
 ## Installation
-1. Clone the repository:
-2. Navigate to the project directory:
-3. Install the dependencies:
+1. Clone the repository: `git clone < https://github.com/HARSHMISHRA-521/WEB_DEV_PROJECTS/tree/master/CHAT%20APP >`
+
+2. Navigate to the project directory: `cd hi5-chat-application`
+
+3. Install the dependencies:  `npm install`
 
 ## Usage
-1. Start the server:
+1. Start the server: `npm start`
 2. Open your web browser and navigate to `http://localhost:8080`
 3. Enter your name to join the chat and start chatting with other users.
 
@@ -29,6 +31,8 @@ Hi5 is a realtime chatting application built using Node.js and Socket.io. It all
 Hi5 is developed by Harsh Mishra.
 
 ## Screenshots
+
+
 
 ![Alt text](image.png)
 
