@@ -596,3 +596,16 @@ footer p {
 .additional-info, #copyright {
   margin-top: 1em; /* Margin to separate from the content */
 }
+/* Additional Information and Copyright Styling */
+.contact-symbols {
+  font-size: 20px; /* Adjust font size for symbols */
+  margin-right: 5px; /* Add some spacing between the symbol and text */
+}
+
+#copyright {
+  background-color: #333; /* Dark background color for copyright section */
+  padding: 1em; /* Padding for the copyright section */
+  color: #fff; /* White text color for contrast */
+  margin-top: 2em; /* Margin to separate from the content */
+  border-radius: 5px; /* Rounded corners for the box */
+}
