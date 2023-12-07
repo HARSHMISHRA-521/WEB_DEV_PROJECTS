@@ -577,3 +577,22 @@ footer p {
 .additional-info a:hover {
   color: #0056b3; /* Darker blue on hover for links in additional information */
 }
+
+/* Copyright Section Styles */
+#copyright {
+  background-color: #333; /* Dark background color for copyright section */
+  padding: 1em; /* Padding for the copyright section */
+  color: #fff; /* White text color for contrast */
+  margin-top: 2em; /* Margin to separate from the content */
+  border-radius: 5px; /* Rounded corners for the box */
+}
+
+/* Contact Symbols */
+.contact-symbols {
+  font-size: 18px; /* Adjust font size */
+}
+
+/* Additional Information and Copyright Styling */
+.additional-info, #copyright {
+  margin-top: 1em; /* Margin to separate from the content */
+}
