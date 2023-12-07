@@ -560,20 +560,3 @@ footer p {
   color: #0056b3; /* Darker blue on hover for contact information links */
 }
 
-/* Additional Information Styles */
-.additional-info {
-  font-weight: bold; /* Bold text */
-  color: #050505; /* Dark text color for better readability */
-}
-
-/* Additional Information links */
-.additional-info a {
-  color: #007bff; /* Blue color for links in additional information */
-  text-decoration: none;
-  transition: color 0.3s ease;
-  font-weight: bold; /* Bold text */
-}
-
-.additional-info a:hover {
-  color: #0056b3; /* Darker blue on hover for links in additional information */
-}
