@@ -1,0 +1,579 @@
+/* Global Styles */
+body {
+  /* Font family and general styles */
+  font-family: 'Open Sans', sans-serif; /* Use a custom font */
+  background-color: #f8f8f8; /* Light gray background */
+  color: #333;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+/* Links */
+a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth color and scale transition */
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.1); /* Slight scale-up on hover */
+}
+
+/* Images */
+img {
+  max-width: 75%; /* Reduced image size */
+  height: auto;
+  transition: transform 0.3s ease; /* Smooth transform transition */
+}
+
+img:hover {
+  transform: scale(1.1); /* Slight scale-up on hover */
+}
+
+/* Unordered and ordered lists */
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* List items */
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(to right, #0056b3 50%, #0056b3 50%); /* Dual-tone gradient background */
+  padding: 1em;
+  color: #fff; /* White text for contrast */
+}
+
+/* Header title */
+header h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+/* Header subtitle */
+header h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+/* Navigation bar */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation links */
+header nav a {
+  padding: 0.5em 1em;
+  display: inline-block;
+  color: #fff; /* White color for navigation links on dual-tone background */
+}
+
+header nav a:hover {
+  color: #f8f8f8; /* Lighter white color on hover for better visibility */
+}
+
+/* About Section Styles */
+#about {
+  padding: 2em;
+  background: linear-gradient(to right, #e1e1e1 50%, #e1e1e1 50%); /* Dual-tone gradient background */
+  border-bottom: 4px solid #007bff; /* Border color to separate sections */
+  color: #050505; /* Darker text color for better readability */
+}
+
+/* Profile image */
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1em;
+}
+
+/* About content */
+.about-content {
+  padding-top: 1em;
+}
+
+/* About content paragraphs */
+.about-content p {
+  font-size: 16px;
+}
+
+/* Skills and interests lists */
+.skills-list,
+.interests-list {
+  margin-top: 1em;
+  padding-left: 1em;
+  color: #007bff; /* Blue color for list items */
+}
+
+/* Education Section Styles */
+#education {
+  padding: 2em;
+}
+
+/* Education table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Table cells */
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Table header */
+th {
+  background-color: #f1f1f1;
+  color: #007bff; /* Blue color for table header */
+}
+
+/* Projects Section Styles */
+#projects {
+  padding: 2em;
+}
+
+/* Project container */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Individual project */
+.project {
+  width: 45%; /* Adjusted project width */
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; /* Smooth box-shadow transition */
+}
+
+.project:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+/* Project title */
+.project h3 {
+  font-size: 18px;
+  margin-bottom: 0.5em;
+}
+
+/* Individual project description */
+.project p {
+  font-size: 14px;
+}
+
+/* Project buttons */
+.project a {
+  display: block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: #007bff; /* Blue background for project buttons */
+  color: #fff;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.project a:hover {
+  background-color: #0056b3; /* Darker blue on hover for project buttons */
+}
+
+/* Blog Section Styles */
+#blog {
+  padding: 2em;
+}
+
+/* Individual blog post */
+.blog-post {
+  margin-bottom: 2em;
+}
+
+/* Blog post image */
+.blog-post img {
+  width: 50%; /* Reduced image size */
+  height: auto;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+/* Blog post title */
+.blog-post h3 {
+  font-size: 18px;
+  margin-bottom: 0.5em;
+}
+
+/* Blog post excerpt */
+.blog-post p {
+  font-size: 14px;
+}
+
+/* Blog post read more links */
+.blog-post a {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  border: 1px solid #007bff; /* Blue border for blog post links */
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.blog-post a:hover {
+  background-color: #f1f1f1;
+  color: #007bff; /* Blue text on hover for blog post links */
+}
+
+/* Contact Section Styles */
+#contact {
+  padding: 2em;
+}
+
+/* Contact information list */
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+/* Contact information items */
+.contact-info li {
+  margin-bottom: 0.5em;
+}
+
+/* Contact information links */
+.contact-info a {
+  color: #007bff; /* Blue color for contact information links */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.contact-info a:hover {
+  color: #0056b3; /* Darker blue on hover for contact information links */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f1f1f1;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Footer copyright text */
+footer p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+/* Additional styles for symbols and animations */
+
+/* Contact symbols */
+.contact-info i {
+  margin-right: 0.5em;
+  font-size: 18px;
+}
+
+/* Social media symbols */
+.social-icons a i {
+  margin-right: 0.5em;
+  font-size: 24px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Colors for sections */
+#education {
+  background-color: #f1f1f1; /* Light gray background for education section */
+}
+
+#projects {
+  background-color: #fcfcfc; /* Off-white background for projects section */
+}
+
+#blog {
+  background-color: #f9f9f9; /* Very light gray background for blog section */
+}
+
+#contact {
+  background-color: #f6f6f6; /* Slightly darker gray background for contact section */
+}
+
+
+/* new section  */
+/* Education Section Styles */
+#education {
+  padding: 2em;
+  background-color: #f8f8f8; /* Light gray background */
+  border-bottom: 4px solid #007bff; /* Border color to separate sections */
+}
+
+/* Education table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Table cells */
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Table header */
+th {
+  background-color: #f1f1f1;
+  color: #007bff; /* Blue color for table header */
+}
+
+/* Projects Section Styles */
+#projects {
+  padding: 2em;
+  background-color: #f8f8f8; /* Light gray background */
+}
+
+/* Project container */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Individual project */
+.project {
+  width: 45%; /* Adjusted project width */
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; /* Smooth box-shadow transition */
+}
+
+.project:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+/* Project title */
+.project h3 {
+  font-size: 18px;
+  margin-bottom: 0.5em;
+}
+
+/* Individual project description */
+.project p {
+  font-size: 14px;
+}
+
+/* Project buttons */
+.project a {
+  display: block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: #007bff; /* Blue background for project buttons */
+  color: #fff;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.project a:hover {
+  background-color: #0056b3; /* Darker blue on hover for project buttons */
+}
+
+/* Blog Section Styles */
+#blog {
+  padding: 2em;
+  background-color: #f8f8f8; /* Light gray background */
+}
+
+/* Individual blog post */
+.blog-post {
+  margin-bottom: 2em;
+}
+
+/* Blog post image */
+.blog-post img {
+  width: 50%; /* Reduced image size */
+  height: auto;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+/* Blog post title */
+.blog-post h3 {
+  font-size: 18px;
+  margin-bottom: 0.5em;
+}
+
+/* Blog post excerpt */
+.blog-post p {
+  font-size: 14px;
+}
+
+/* Blog post read more links */
+.blog-post a {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  border: 1px solid #007bff; /* Blue border for blog post links */
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.blog-post a:hover {
+  background-color: #f1f1f1;
+  color: #007bff; /* Blue text on hover for blog post links */
+}
+
+/* Contact Section Styles */
+#contact {
+  padding: 2em;
+  background-color: #f8f8f8; /* Light gray background */
+}
+
+/* Contact information list */
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+/* Contact information items */
+.contact-info li {
+  margin-bottom: 0.5em;
+  animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+/* Contact information links */
+.contact-info a {
+  color: #007bff; /* Blue color for contact information links */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.contact-info a:hover {
+  color: #0056b3; /* Darker blue on hover for contact information links */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f8f8f8; /* Light gray background */
+  padding: 1em;
+  text-align: center;
+}
+
+/* Footer copyright text */
+footer p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+/* Logo Styles */
+.logo {
+  width: 30px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 0.5em;
+}
+
+/* Social media icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.social-icons a {
+  margin: 0 0.5em;
+  color: #007bff; /* Blue color for social media icons */
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.social-icons a:hover {
+  color: #0056b3; /* Darker blue on hover for social media icons */
+}
+
+
+/* ******************* */
+/* About Section Styles */
+#about {
+  padding: 2em;
+  background: linear-gradient(to right, #e1e1e1 50%, #e1e1e1 50%); /* Dual-tone gradient background */
+  border-bottom: 4px solid #007bff; /* Border color to separate sections */
+}
+
+/* About content paragraphs */
+.about-content p {
+  font-size: 16px;
+  color: #050505; /* Darker text color for better readability */
+  font-weight: bold; /* Bold text */
+}
+
+/* Contact Information Styles */
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin-top: 1em;
+  color: #333; /* Dark text color for contact information */
+}
+
+/* Contact Information links */
+.contact-info a {
+  color: #007bff; /* Blue color for contact information links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: bold; /* Bold text */
+}
+
+.contact-info a:hover {
+  color: #0056b3; /* Darker blue on hover for contact information links */
+}
+
+/* Additional Information Styles */
+.additional-info {
+  font-weight: bold; /* Bold text */
+  color: #050505; /* Dark text color for better readability */
+}
+
+/* Additional Information links */
+.additional-info a {
+  color: #007bff; /* Blue color for links in additional information */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: bold; /* Bold text */
+}
+
+.additional-info a:hover {
+  color: #0056b3; /* Darker blue on hover for links in additional information */
+}
